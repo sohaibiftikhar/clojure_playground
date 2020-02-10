@@ -13,6 +13,16 @@ FIXME: explanation
     $ java -jar clojure-noob-0.1.0-standalone.jar [args]
 
 ## Learnings
+* Maps can be passed multiple maps  
+  ```
+  (map str ["a" "b" "c"] ["A" "B" "C"])
+  ; => ("aA" "bB" "cC")
+  ```
+* Popular sequence functions: map reduce take-while drop-while filter some count concat
+* Some return value instead of true:
+  ```$xslt
+  (some #(and (> (:critter %) 3) %) food-journal)
+  ```
 * 
 
 ## License
