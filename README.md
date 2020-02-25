@@ -23,8 +23,22 @@ FIXME: explanation
   ```$xslt
   (some #(and (> (:critter %) 3) %) food-journal)
   ```
-* 
-
+* vim-fireplace shortcuts:
+  * gf = jump to namespace under cursor (goto file)
+  * cpr and :Require! - (require :reload) or (require reload-all)
+  * `Eval (clojure code)` - evaluate arbitratry clojure code
+  * `cqp` - open quasi REPL
+  * `cpp` - execute current block
+  * `:lopen` open stacktracce for last error
+  * `C-x C-o` for omni-complete `C-n C-p` also work fine.
+  * `Shift-k` for getting documentation
+  * `:Doc ` for looking up documentation for symbol
+  * `[d` display the source for the symbol under cursor
+  * `:Source ` display source for symbol entered in prompt
+  * `[C-D` jumps to the definition of a symbol
+  * `:RunTests` kicks of `(clojure.test/run-tests)` and loads results into quickfix
+  * 
+  
 ## License
 
 Copyright © 2020 FIXME
